@@ -1,20 +1,18 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron_pokeapi",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Consuming PokéAPI with electron js",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/electron/electron_pokeapi",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "api",
+    "pokemon"
   ],
-  "author": "GitHub",
+  "author": "Felipe Novais",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^4.1.4"
