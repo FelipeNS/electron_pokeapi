@@ -1,0 +1,15 @@
+.main-header{
+    background-color: #ef5350;
+    color: #fff;
+}
+.m-15{
+    margin: 0.938em;
+}
+
+.border-none{
+    border: none
+}
+
+.card-title{
+    text-transform: capitalize;
+}

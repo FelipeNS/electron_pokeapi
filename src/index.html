@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Pókemon List</title>
+		<link rel="stylesheet" href="./assets/css/bootstrap.css">
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+		<div class="row m-15" style="max-width: 100%">
+			<div class="col-12 card main-header shadow border-none">
+				<div class="card-body">
+					<h3 id="pokedex_name" class="text-center"></h3>
+				</div>
+			</div>
+		</div>
+		<div id="card_list" class="row m-15" style="max-width: 100%">
+			
+		</div>
+		<script>
+			const api = require('./assets/js/api.js')
+			const functions = require('./assets/js/functions.js')
+			
+			api.getPokedex((data) => {
+				functions.showData(data)
+			});
+		</script>
+		<script src="./assets/js/jquery-3.3.1.min.js"></script>
+		<script src="./assets/js/bootstrap.min.js"></script>
+	</body>
+</html>
