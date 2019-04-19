@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron_pokeapi",
+  "repository": "https://github.com/FelipeNS/electron_pokeapi",
   "keywords": [
     "Electron",
     "api",
