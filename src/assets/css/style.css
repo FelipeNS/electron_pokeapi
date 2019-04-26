@@ -1,15 +1,54 @@
-.main-header{
-    background-color: #ef5350;
-    color: #fff;
+body{
+    background-color: #181b1d;
+    /* background-image: url("../img/50344.jpg");
+    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; */
 }
+
 .m-15{
     margin: 0.938em;
 }
 
-.border-none{
-    border: none
-}
-
 .card-title{
     text-transform: capitalize;
+}
+
+.poke_logo{
+    width: 70px;
+    height: 40px;
+}
+
+.image-shadow{
+    -webkit-filter: drop-shadow(3px 3px 3px #181b1d);
+    filter: drop-shadow(3px 3px 3px #181b1d);
+}
+
+.card{
+    border-radius: 15px;
+    background-color: #2c2e30;
+    color: #fff;
+}
+
+.bg-dark{
+    background-color: #2c2e30 !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #212323;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #212323;
+}
+::-webkit-scrollbar-thumb {
+    background: #181b1d;
+}
+
+.bg-dark-img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #181b1d;
 }
